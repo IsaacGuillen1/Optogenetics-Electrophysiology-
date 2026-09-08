@@ -289,8 +289,8 @@ for k = 1:numel(Matrices)
         name= 'Gabazine (Drug 2)';
     end
     
-    disp(name)
-    disp(Avg_3rows);
+    %disp(name)
+    %disp(Avg_3rows);
 end
 
 % Avg 3 rows of Normalize IPSC, Ra, Ri, Holding
