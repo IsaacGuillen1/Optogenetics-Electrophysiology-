@@ -7,14 +7,9 @@ Experimental arrangement:
 
 <img width="1740" height="811" alt="Figure3" src="https://github.com/user-attachments/assets/192da9fc-1692-427a-a650-a3ce74ce85b9" />
 
-    Cells    RecordedCells_Traces
+    Cell #    RecordedCells_Traces
     _____    ____________________
 
-      1       {20002×133 double} 
-      2       {20002×171 double} 
-      3       {20002×164 double} 
-      4       {20002×163 double} 
-      5       {20002×169 double} 
       6       {20002×163 double} 
 
 Analyzing Evoked_IPSC, Ra, Ri, IHolding & sIPSC: Cell #6
