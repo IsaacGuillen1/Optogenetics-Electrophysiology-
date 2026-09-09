@@ -18,9 +18,17 @@ Protocol: Voltage Clamp
 
 Mouse age: 14 weeks
 
+Figure #1. Filtered traces & searching regions for analysis. Finding baseline (control), Ra, Ri & OptoStim Response (red area).
+
 <img width="1762" height="821" alt="Figure1" src="https://github.com/user-attachments/assets/7f211165-a08b-41a2-8155-2c99e341b8ea" />
 
+Figure #2. Single trace for visualization purposes. 
+
 <img width="1750" height="821" alt="Figure2" src="https://github.com/user-attachments/assets/05dbd247-1010-46de-92a2-aa00ef1a00f1" />
+
+Figure #3. Results. (Top left) Shows holding current over the wash-in solutions. Solid circles represent individual sweeps of 20 seconds duration. 
+(Bottom Left) Represents optogenetic-evoked responses (IPSC, solid circles) and resistance access (Ra, open circles) over wash-in solutions. 
+(Top right) Normalized IPSC over the last 5 minutes of calcium-free solution (used as baseline) through the last drug. Every dot is the average of every 3 sweeps for IPSC. (Bottom right). Sample figure showing IPSC over different wash-in solutions.   
 
 <img width="1740" height="811" alt="Figure3" src="https://github.com/user-attachments/assets/192da9fc-1692-427a-a650-a3ce74ce85b9" />
 
@@ -58,6 +66,8 @@ Results sheet from MATLAB script:
     {'GZ 03'                }          0.042411      22.625      240.66     -70.163       
     {'GZ 04'                }          0.046471      22.071      232.11     -73.224       
     {'GZ 05'                }          0.048677       21.94      211.21     -78.823       
+
+Analyzing criteria if Ra is >20% MOhms or <-20% MOhms:
 
     Ra_Criteria%   Ri_Criteria%   I_Holding_Criteria%
     ___________    ___________    __________________
