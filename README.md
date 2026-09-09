@@ -80,11 +80,11 @@ Analyzing criteria if Ra is >20% MOhms or <-20% MOhms:
                                       IPSC          
                                     ________        
                                                     
-    {'Baseline_5min'   }                   1        
-    {'CTAP_10min~15min'}             0.61448        
-    {'CTAP_2min'       }             0.78224        
-    {'GZ_5min~10min'   }             0.04269        
-    {'GZ_2min'         }            0.047574        
+    {'Baseline_5min'                1        
+    {'Drug#1_10min~15min'}          0.61448        
+    {'Drug#1_Last_2min'}            0.78224        
+    {'Drug#2_5min_10min'}           0.04269        
+    {'Drug#2_Last_2min'}            0.047574        
 
 Finished analysis
 elapsed time is: 6.930058 seconds.
