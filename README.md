@@ -7,10 +7,15 @@ Experimental arrangement:
       6       {20002×163 double} 
 
 Analyzing Evoked_IPSC, Ra, Ri, IHolding & sIPSC: Cell #6
+
 Substance: Cocaine
+
 Genotype: Mouse Info:D1Morf 296 26421 000
+
 Gender: Gender: Female
+
 Protocol: Voltage Clamp
+
 Mouse age: NaN weeks
 
 <img width="1762" height="821" alt="Figure1" src="https://github.com/user-attachments/assets/7f211165-a08b-41a2-8155-2c99e341b8ea" />
