@@ -1,12 +1,6 @@
 Experimental arrangement: 
 <img width="4071" height="2294" alt="Picture2" src="https://github.com/user-attachments/assets/d25d9d88-8ea5-459e-81e7-9a5bdac749a4" />
 
-<img width="1762" height="821" alt="Figure1" src="https://github.com/user-attachments/assets/7f211165-a08b-41a2-8155-2c99e341b8ea" />
-
-<img width="1750" height="821" alt="Figure2" src="https://github.com/user-attachments/assets/05dbd247-1010-46de-92a2-aa00ef1a00f1" />
-
-<img width="1740" height="811" alt="Figure3" src="https://github.com/user-attachments/assets/192da9fc-1692-427a-a650-a3ce74ce85b9" />
-
     Cell #    RecordedCells_Traces
     _____    ____________________
 
@@ -16,8 +10,16 @@ Analyzing Evoked_IPSC, Ra, Ri, IHolding & sIPSC: Cell #6
 Substance: Cocaine
 Genotype: Mouse Info:D1Morf 296 26421 000
 Gender: Gender: Female
-Protocol: Protocol: Voltage Clamp
+Protocol: Voltage Clamp
 Mouse age: NaN weeks
+
+<img width="1762" height="821" alt="Figure1" src="https://github.com/user-attachments/assets/7f211165-a08b-41a2-8155-2c99e341b8ea" />
+
+<img width="1750" height="821" alt="Figure2" src="https://github.com/user-attachments/assets/05dbd247-1010-46de-92a2-aa00ef1a00f1" />
+
+<img width="1740" height="811" alt="Figure3" src="https://github.com/user-attachments/assets/192da9fc-1692-427a-a650-a3ce74ce85b9" />
+
+
     ACSFCaFree(last 5 min)    CTAP (drug 1)    Gabazine (Drug 2)
     ______________________    _____________    _________________
 
