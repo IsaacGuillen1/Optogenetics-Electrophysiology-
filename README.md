@@ -18,7 +18,7 @@ Protocol: Voltage Clamp
 
 Mouse age: 14 weeks
 
-Figure #1. Filtered traces & searching regions for analysis. Finding baseline (control), Ra, Ri & OptoStim Response (red area).
+Figure #1. (Top image) Raw traces & (Bottom image) Regions to analyze in red (baseline, Resistant access (Ra), Resistant Input (Ri) and optogentic evoked response (IPSC).
 
 <img width="1762" height="821" alt="Figure1" src="https://github.com/user-attachments/assets/7f211165-a08b-41a2-8155-2c99e341b8ea" />
 
@@ -28,7 +28,7 @@ Figure #2. Single trace for visualization purposes.
 
 Figure #3. Results. (Top left) Shows holding current over the wash-in solutions. Solid circles represent individual sweeps of 20 seconds duration. 
 (Bottom Left) Represents optogenetic-evoked responses (IPSC, solid circles) and resistance access (Ra, open circles) over wash-in solutions. 
-(Top right) Normalized IPSC over the last 5 minutes of calcium-free solution (used as baseline) through the last drug. Every solid circle is the average of every 3 IPSC sweeps. (Bottom right). Sample figure showing IPSC over different wash-in solutions.   
+(Top right) Normalized IPSC over the last 5 minutes of calcium-free solution (used as baseline) through the last drug. Every solid circle is the average of every 3 IPSC sweeps. (Bottom right). Sample figure showing IPSCs over different wash-in solutions.   
 
 <img width="1740" height="811" alt="Figure3" src="https://github.com/user-attachments/assets/192da9fc-1692-427a-a650-a3ce74ce85b9" />
 
