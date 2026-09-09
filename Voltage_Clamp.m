@@ -1,4 +1,4 @@
-%% Electrophysiology & Optogenetics Analysis (Voltage clamp)
+%% Electropysiology & Optogenetics Analysis (Voltage clamp)
 % Project: Nucleus Accumbens Core D2 Medium Spiny Neurons
 % VC Analysis: IPSC amplitude
 % Cocktails: ACSF Calcium Free (Baseline), CTAP (Drug 1), Gabazine (Drug 2);  
@@ -7,7 +7,7 @@
 tic;
 clear;clc;
 
-% 1. Loading previously saved data 
+% 1. Loading previous saved data 
 load(fullfile('Ephys/MatrixData2.mat'));
 load(fullfile('Ephys/TableData3.mat'));
 
@@ -21,22 +21,22 @@ t= table(Cells,RecordedCells_Traces);
 disp(t);
 allSpecificData= cell(length(allDataMatrix),2);
 
-N=length(RecordedCells_Traces); % return number of recorded cells (every Sheet from Excel file)
+N=length(RecordedCells_Traces); % return number of recorded cells (every Sheet from excelfile)
 
 %% Select cells to analyze (example: 1 , 1:N, or [2 5 6])
 
 Select_exp_number= 6; 
 
 
-%% 2. Initialize a cell array to store results if needed
+%% 2.Initialize a cell array to store results if needed
 
 for f= Select_exp_number % Select sheets number to analyze or write 2:N to do a full analysis 
     CurrentFile= RecordedCells_Traces{f};
 
-% Import data from Excel file into MATLAB
+% Import data from excel file into matlab
   disp(['Analyzing Evoked_IPSC, Ra, Ri, IHolding & sIPSC: ', 'Cell #',num2str(Cells(f))]);
 
-% Import data from Excel file into MATLAB
+% Import data from excel file into matlab
 CellData = allDataMatrix{f};             % Imports data from selected excel file & spreadsheet in array(matrix) format
 CellData2 = allDataTable{f};             % Imports data from selected excel file & spreadsheet in table format
 
@@ -214,7 +214,7 @@ Ri= ((-0.005)./ (Ri_Mean))*(1000000);          % ExcelFormula: says =IF(PeakAmp<
 
 % OPTO GENETIC RESPONSE (IPSC)
 % OptoStim Response #1
-Resp_Peak= min(Response_Data)';      % Find min value OptoStim response (peak PA)
+Resp_Peak= min(Response_Data)';      % Find min value OptoStim resposnse (peak PA)
 Resp_PeakAmplitude= (Resp_Peak)-(Avg_Baseline_Ihold);
 
 %% 8. Normalizing Ra & IPSC response peaks to baseline (Average 5 minutes of baseline)
@@ -240,7 +240,7 @@ Condition_IPSC= Normalized_IPSC(Sweeps);
 A_Table_Condition_Ra_IPSC= table(Traces, Normalized_Ra,Normalized_IPSC);
 A_Table_Condition_Ra_IPSC(Sweeps,2:3) = {NaN}; % Substitute values (traces) with NaN in table format
 
-% Matrix format for analysis purposes (MATLAB works w/matrices to operate)
+% Matrix format for analyses purposes (Matlab works w/matrices to operate)
 Normalized_Ra(Sweeps) = NaN;                  
 Normalized_IPSC(Sweeps) = NaN;                
 
@@ -289,11 +289,11 @@ for k = 1:numel(Matrices)
         name= 'Gabazine (Drug 2)';
     end
     
-    %disp(name)
-    %disp(Avg_3rows);
+    disp(name)
+    disp(Avg_3rows);
 end
 
-% Avg 3 rows of normalized IPSC, Ra, Ri, Holding
+% Avg 3 rows of Normalize IPSC, Ra, Ri, Holding
 Bsln_avg3rows= Avg_3rows_results{1,1};     % Bsln last 5 minutes
 CTAP_avg3rows= Avg_3rows_results{1,2};     % CTAP total time 
 GZ_avg3rows= Avg_3rows_results{1,3};       % GZ total time
