@@ -8,8 +8,6 @@ Experimental arrangement:
 
 Analyzing Evoked_IPSC, Ra, Ri, IHolding & sIPSC: Cell #6
 
-Substance: Cocaine
-
 Mouse Info: Treated group
 
 Gender: Female
