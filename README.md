@@ -34,6 +34,8 @@ Figure #3. Results. (Top left) Shows holding current over the wash-in solutions.
 
 Results sheet from MATLAB script:
 
+Selected traces for each solution:
+
     ACSFCaFree(last 5 min)    CTAP (drug 1)    Gabazine (Drug 2)
     ______________________    _____________    _________________
 
@@ -67,7 +69,7 @@ Results sheet from MATLAB script:
     {'GZ 04'                }          0.046471      22.071      232.11     -73.224       
     {'GZ 05'                }          0.048677       21.94      211.21     -78.823       
 
-Analyzing criteria if Ra is >20% MOhms or <-20% MOhms:
+Analyzing criteria if Ra is >20% or <-20% from baseline:
 
     Ra_Criteria%   Ri_Criteria%   I_Holding_Criteria%
     ___________    ___________    __________________
