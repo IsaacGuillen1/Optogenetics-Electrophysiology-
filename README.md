@@ -24,7 +24,7 @@ Figure #2. Single trace for visualization purposes.
 
 <img width="1750" height="821" alt="Figure2" src="https://github.com/user-attachments/assets/05dbd247-1010-46de-92a2-aa00ef1a00f1" />
 
-Figure #3. Results. (Top left) Shows holding current over the wash-in solutions. Solid circles represent individual sweeps of 20 seconds duration. 
+Figure #3. D2-medium spiny neuron analysis from a treated group. (Top left) Shows holding current over the wash-in solutions. Solid circles represent individual sweeps of 20 seconds duration. 
 (Bottom Left) Represents optogenetic-evoked responses (IPSC, solid circles) and resistance access (Ra, open circles) over wash-in solutions. 
 (Top right) Normalized IPSC over the last 5 minutes of calcium-free solution (used as baseline) through the last drug. Every solid circle is the average of every 3 consecutive IPSC amplitudes. (Bottom right) Sample figure showing IPSCs over different wash-in solutions.   
 
